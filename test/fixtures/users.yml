@@ -1,0 +1,41 @@
+user_1:
+  id: 1
+  name: Jackson
+  email: jackson@faker.com
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.196335000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.196335000 Z
+    zone: *2
+    time: *3
+
+user_2:
+  id: 2
+  name: William
+  email: william@faker.com
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.203510000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.203510000 Z
+    zone: *2
+    time: *3
+
+user_3:
+  id: 3
+  name: Trey
+  email: trey@faker.com
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.206208000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.206208000 Z
+    zone: *2
+    time: *3

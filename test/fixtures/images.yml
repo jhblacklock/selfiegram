@@ -1,0 +1,323 @@
+image_1:
+  id: 1
+  url: https://fillmurray.com/640/640
+  caption: HopSlam Ale
+  user_id: 1
+
+image_2:
+  id: 2
+  url: https://fillmurray.com/640/640
+  caption: Schneider Aventinus
+  user_id: 1
+
+image_3:
+  id: 3
+  url: https://fillmurray.com/640/640
+  caption: Alpha King Pale Ale
+  user_id: 1
+
+image_4:
+  id: 4
+  url: https://fillmurray.com/640/640
+  caption: Westmalle Trappist Tripel
+  user_id: 1
+
+image_5:
+  id: 5
+  url: https://fillmurray.com/640/640
+  caption: Orval Trappist Ale
+  user_id: 1
+
+image_6:
+  id: 6
+  url: https://fillmurray.com/640/640
+  caption: Pliny The Elder
+  user_id: 1
+
+image_7:
+  id: 7
+  url: https://fillmurray.com/640/640
+  caption: Yeti Imperial Stout
+  user_id: 1
+
+image_8:
+  id: 8
+  url: https://fillmurray.com/640/640
+  caption: Double Bastard Ale
+  user_id: 1
+
+image_9:
+  id: 9
+  url: https://fillmurray.com/640/640
+  caption: Chimay Grande Réserve
+  user_id: 1
+
+image_10:
+  id: 10
+  url: https://fillmurray.com/640/640
+  caption: Dreadnaught IPA
+  user_id: 1
+
+image_11:
+  id: 11
+  url: https://fillmurray.com/640/640
+  caption: Hercules Double IPA
+  user_id: 2
+
+image_12:
+  id: 12
+  url: https://fillmurray.com/640/640
+  caption: Sierra Nevada Celebration Ale
+  user_id: 2
+
+image_13:
+  id: 13
+  url: https://fillmurray.com/640/640
+  caption: Edmund Fitzgerald Porter
+  user_id: 2
+
+image_14:
+  id: 14
+  url: https://fillmurray.com/640/640
+  caption: Samuel Smith’s Imperial IPA
+  user_id: 2
+
+image_15:
+  id: 15
+  url: https://fillmurray.com/640/640
+  caption: Weihenstephaner Hefeweissbier
+  user_id: 2
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.143802000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.143802000 Z
+    zone: *2
+    time: *3
+
+image_16:
+  id: 16
+  url: https://fillmurray.com/640/640
+  caption: Hop Rod Rye
+  user_id: 2
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.153283000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.153283000 Z
+    zone: *2
+    time: *3
+
+image_17:
+  id: 17
+  url: https://fillmurray.com/640/640
+  caption: HopSlam Ale
+  user_id: 2
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.164829000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.164829000 Z
+    zone: *2
+    time: *3
+
+image_18:
+  id: 18
+  url: https://fillmurray.com/640/640
+  caption: Nugget Nectar
+  user_id: 2
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.184816000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.184816000 Z
+    zone: *2
+    time: *3
+
+image_19:
+  id: 19
+  url: https://fillmurray.com/640/640
+  caption: Storm King Stout
+  user_id: 2
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.196974000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.196974000 Z
+    zone: *2
+    time: *3
+
+image_20:
+  id: 20
+  url: https://fillmurray.com/640/640
+  caption: St. Bernardus Abt 12
+  user_id: 2
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.208502000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.208502000 Z
+    zone: *2
+    time: *3
+
+image_21:
+  id: 21
+  url: https://fillmurray.com/640/640
+  caption: Weihenstephaner Hefeweissbier
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.235406000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.235406000 Z
+    zone: *2
+    time: *3
+
+image_22:
+  id: 22
+  url: https://fillmurray.com/640/640
+  caption: Westmalle Trappist Tripel
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.244901000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.244901000 Z
+    zone: *2
+    time: *3
+
+image_23:
+  id: 23
+  url: https://fillmurray.com/640/640
+  caption: Yeti Imperial Stout
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.257234000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.257234000 Z
+    zone: *2
+    time: *3
+
+image_24:
+  id: 24
+  url: https://fillmurray.com/640/640
+  caption: Bourbon County Stout
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.318267000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.318267000 Z
+    zone: *2
+    time: *3
+
+image_25:
+  id: 25
+  url: https://fillmurray.com/640/640
+  caption: Hop Rod Rye
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.332881000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.332881000 Z
+    zone: *2
+    time: *3
+
+image_26:
+  id: 26
+  url: https://fillmurray.com/640/640
+  caption: Pliny The Elder
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.342750000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.342750000 Z
+    zone: *2
+    time: *3
+
+image_27:
+  id: 27
+  url: https://fillmurray.com/640/640
+  caption: Brooklyn Black
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.352987000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.352987000 Z
+    zone: *2
+    time: *3
+
+image_28:
+  id: 28
+  url: https://fillmurray.com/640/640
+  caption: Schneider Aventinus
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.401596000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.401596000 Z
+    zone: *2
+    time: *3
+
+image_29:
+  id: 29
+  url: https://fillmurray.com/640/640
+  caption: Duvel
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.424799000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.424799000 Z
+    zone: *2
+    time: *3
+
+image_30:
+  id: 30
+  url: https://fillmurray.com/640/640
+  caption: Stone IPA
+  user_id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.441418000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.441418000 Z
+    zone: *2
+    time: *3

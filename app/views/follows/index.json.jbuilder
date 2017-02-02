@@ -1,0 +1,1 @@
+json.array! @collection, partial: 'follows/follow', as: :follow

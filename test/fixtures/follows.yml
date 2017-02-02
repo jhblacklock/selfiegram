@@ -1,0 +1,15 @@
+follow_1:
+  id: 1
+  followable_type: User
+  followable_id: 3
+  follower_type: User
+  follower_id: 1
+  blocked: false
+
+follow_2:
+  id: 2
+  followable_type: User
+  followable_id: 3
+  follower_type: User
+  follower_id: 2
+  blocked: false

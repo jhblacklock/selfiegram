@@ -1,0 +1,569 @@
+vote_1:
+  id: 1
+  votable_type: Image
+  votable_id: 1
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.840741000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.840741000 Z
+    zone: *2
+    time: *3
+
+vote_2:
+  id: 2
+  votable_type: Image
+  votable_id: 2
+  voter_type: User
+  voter_id: 3
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.864691000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.864691000 Z
+    zone: *2
+    time: *3
+
+vote_3:
+  id: 3
+  votable_type: Image
+  votable_id: 3
+  voter_type: User
+  voter_id: 3
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.900563000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.900563000 Z
+    zone: *2
+    time: *3
+
+vote_4:
+  id: 4
+  votable_type: Image
+  votable_id: 4
+  voter_type: User
+  voter_id: 3
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.916800000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.916800000 Z
+    zone: *2
+    time: *3
+
+vote_5:
+  id: 5
+  votable_type: Image
+  votable_id: 5
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.937839000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.937839000 Z
+    zone: *2
+    time: *3
+
+vote_6:
+  id: 6
+  votable_type: Image
+  votable_id: 6
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.950496000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.950496000 Z
+    zone: *2
+    time: *3
+
+vote_7:
+  id: 7
+  votable_type: Image
+  votable_id: 7
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.960839000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.960839000 Z
+    zone: *2
+    time: *3
+
+vote_8:
+  id: 8
+  votable_type: Image
+  votable_id: 8
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.982198000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.982198000 Z
+    zone: *2
+    time: *3
+
+vote_9:
+  id: 9
+  votable_type: Image
+  votable_id: 9
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:27.996039000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:27.996039000 Z
+    zone: *2
+    time: *3
+
+vote_10:
+  id: 10
+  votable_type: Image
+  votable_id: 10
+  voter_type: User
+  voter_id: 3
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.004593000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.004593000 Z
+    zone: *2
+    time: *3
+
+vote_11:
+  id: 11
+  votable_type: Image
+  votable_id: 11
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.027904000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.027904000 Z
+    zone: *2
+    time: *3
+
+vote_12:
+  id: 12
+  votable_type: Image
+  votable_id: 12
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.049247000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.049247000 Z
+    zone: *2
+    time: *3
+
+vote_13:
+  id: 13
+  votable_type: Image
+  votable_id: 13
+  voter_type: User
+  voter_id: 3
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.087377000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.087377000 Z
+    zone: *2
+    time: *3
+
+vote_14:
+  id: 14
+  votable_type: Image
+  votable_id: 14
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.132359000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.132359000 Z
+    zone: *2
+    time: *3
+
+vote_15:
+  id: 15
+  votable_type: Image
+  votable_id: 15
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.149577000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.149577000 Z
+    zone: *2
+    time: *3
+
+vote_16:
+  id: 16
+  votable_type: Image
+  votable_id: 16
+  voter_type: User
+  voter_id: 3
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.159017000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.159017000 Z
+    zone: *2
+    time: *3
+
+vote_17:
+  id: 17
+  votable_type: Image
+  votable_id: 17
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.177730000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.177730000 Z
+    zone: *2
+    time: *3
+
+vote_18:
+  id: 18
+  votable_type: Image
+  votable_id: 18
+  voter_type: User
+  voter_id: 3
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.193880000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.193880000 Z
+    zone: *2
+    time: *3
+
+vote_19:
+  id: 19
+  votable_type: Image
+  votable_id: 19
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.203475000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.203475000 Z
+    zone: *2
+    time: *3
+
+vote_20:
+  id: 20
+  votable_type: Image
+  votable_id: 20
+  voter_type: User
+  voter_id: 3
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.214287000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.214287000 Z
+    zone: *2
+    time: *3
+
+vote_21:
+  id: 21
+  votable_type: Image
+  votable_id: 21
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.241126000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.241126000 Z
+    zone: *2
+    time: *3
+
+vote_22:
+  id: 22
+  votable_type: Image
+  votable_id: 22
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.251240000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.251240000 Z
+    zone: *2
+    time: *3
+
+vote_23:
+  id: 23
+  votable_type: Image
+  votable_id: 23
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.274863000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.274863000 Z
+    zone: *2
+    time: *3
+
+vote_24:
+  id: 24
+  votable_type: Image
+  votable_id: 24
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.328155000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.328155000 Z
+    zone: *2
+    time: *3
+
+vote_25:
+  id: 25
+  votable_type: Image
+  votable_id: 25
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.338568000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.338568000 Z
+    zone: *2
+    time: *3
+
+vote_26:
+  id: 26
+  votable_type: Image
+  votable_id: 26
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.348195000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.348195000 Z
+    zone: *2
+    time: *3
+
+vote_27:
+  id: 27
+  votable_type: Image
+  votable_id: 27
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.360874000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.360874000 Z
+    zone: *2
+    time: *3
+
+vote_28:
+  id: 28
+  votable_type: Image
+  votable_id: 28
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.416994000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.416994000 Z
+    zone: *2
+    time: *3
+
+vote_29:
+  id: 29
+  votable_type: Image
+  votable_id: 29
+  voter_type: User
+  voter_id: 2
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.437684000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.437684000 Z
+    zone: *2
+    time: *3
+
+vote_30:
+  id: 30
+  votable_type: Image
+  votable_id: 30
+  voter_type: User
+  voter_id: 1
+  vote_flag: true
+  vote_scope: 
+  vote_weight: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2017-02-02 03:16:28.448749000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2017-02-02 03:16:28.448749000 Z
+    zone: *2
+    time: *3
