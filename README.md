@@ -40,7 +40,7 @@ curl --user truecar:truecar http://localhost:3000/users/1/follows/feed
 
 ```
 
-## H2 Run some tests
+## Run some tests
 
 ```
 rake test
