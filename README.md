@@ -5,6 +5,7 @@
 ```
 rake db:schema:load
 rake db:seed
+rails s
 ```
 
 ## CURL 
@@ -38,7 +39,6 @@ curl --user truecar:truecar -H "Content-Type: application/json" -X POST -d '{"fo
 curl --user truecar:truecar http://localhost:3000/users/1/follows/feed
 
 ```
-
 
 ## H2 Run some tests
 

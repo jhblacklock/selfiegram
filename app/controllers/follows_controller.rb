@@ -13,7 +13,7 @@ class FollowsController < ApplicationController
 
   def feed
     ids = @user.following_users.collect(&:id)
-    @images = Image.where(id: ids).paginate(paginate_options)
+    @images = Image.where(user_id: ids).paginate(paginate_options)
   end
 
   def create

@@ -20,5 +20,5 @@ curl --user truecar:truecar -H "Content-Type: application/json" -X POST -d '{"li
 # Follows
 
 curl --user truecar:truecar http://localhost:3000/users/1/follows
-curl --user truecar:truecar -H "Content-Type: application/json" -X POST -d '{"follow": {"by": 3}}' http://localhost:3000/users/1/follows
+curl --user truecar:truecar -H "Content-Type: application/json" -X POST -d '{"follow": {"by": 1}}' http://localhost:3000/users/2/follows
 curl --user truecar:truecar http://localhost:3000/users/1/follows/feed
