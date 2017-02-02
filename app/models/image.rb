@@ -1,12 +1,12 @@
 class Image < ApplicationRecord
   belongs_to :user
-  acts_as_votable
-
+  has_many :followers
   delegate :name, to: :user, prefix: true
+  has_many :likes
 
   scope :popular, ->() {
     where('created_at >= ?', 1.hour.ago)
-      .order('cached_votes_total DESC, created_at DESC')
+      .order('likes_count DESC, created_at DESC')
   }
 
   def owner
@@ -17,7 +17,10 @@ class Image < ApplicationRecord
     user.followers.count
   end
 
-  def likes_count
-    votes_for.size
-  end
+  # def likes_count
+  #   votes_for.size
+  # end
 end
+
+
+# images = Image.select("*, count(votes_fors.id) AS likes_count").joins('votes_fors').group("votes_fors.id").order("likes_count DESC")

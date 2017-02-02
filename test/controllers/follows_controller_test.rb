@@ -13,7 +13,7 @@ class FollowsControllerTest < ActionDispatch::IntegrationTest
 
   test 'should create follow' do
     assert_difference('@user.followers.count') do
-      post follows_url, params: { follow: { by: 3 } }, as: :json
+      post follows_url, params: { follow: { by: 2 } }, as: :json
     end
 
     assert_response 201

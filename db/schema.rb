@@ -10,18 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170202050801) do
+ActiveRecord::Schema.define(version: 20170202222216) do
 
   create_table "follows", force: :cascade do |t|
-    t.string   "followable_type",                 null: false
-    t.integer  "followable_id",                   null: false
-    t.string   "follower_type",                   null: false
-    t.integer  "follower_id",                     null: false
-    t.boolean  "blocked",         default: false, null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.index ["followable_id", "followable_type"], name: "fk_followables"
-    t.index ["follower_id", "follower_type"], name: "fk_follows"
+    t.integer  "user_id"
+    t.integer  "follower_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "images", force: :cascade do |t|
@@ -30,6 +25,7 @@ ActiveRecord::Schema.define(version: 20170202050801) do
     t.integer  "user_id"
     t.datetime "created_at",                            null: false
     t.datetime "updated_at",                            null: false
+    t.integer  "liked_count",             default: 0
     t.integer  "cached_votes_total",      default: 0
     t.integer  "cached_votes_score",      default: 0
     t.integer  "cached_votes_up",         default: 0
@@ -37,6 +33,7 @@ ActiveRecord::Schema.define(version: 20170202050801) do
     t.integer  "cached_weighted_score",   default: 0
     t.integer  "cached_weighted_total",   default: 0
     t.float    "cached_weighted_average", default: 0.0
+    t.integer  "likes_count",             default: 0
     t.index ["cached_votes_down"], name: "index_images_on_cached_votes_down"
     t.index ["cached_votes_score"], name: "index_images_on_cached_votes_score"
     t.index ["cached_votes_total"], name: "index_images_on_cached_votes_total"
@@ -47,25 +44,22 @@ ActiveRecord::Schema.define(version: 20170202050801) do
     t.index ["user_id"], name: "index_images_on_user_id"
   end
 
+  create_table "likes", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "image_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["image_id"], name: "index_likes_on_image_id"
+    t.index ["user_id"], name: "index_likes_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "votes", force: :cascade do |t|
-    t.string   "votable_type"
-    t.integer  "votable_id"
-    t.string   "voter_type"
-    t.integer  "voter_id"
-    t.boolean  "vote_flag"
-    t.string   "vote_scope"
-    t.integer  "vote_weight"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.index ["votable_id", "votable_type", "vote_scope"], name: "index_votes_on_votable_id_and_votable_type_and_vote_scope"
-    t.index ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope"
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
+    t.integer  "follows_count",   default: 0
+    t.integer  "followers_count", default: 0
   end
 
 end

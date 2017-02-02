@@ -8,8 +8,8 @@ users.each do |user|
   20.times do |i|
     image = user.images.create(caption: Faker::Beer.name,
                                url: Faker::Fillmurray.image(false, "640", "640"))
-    image.liked_by others.sample
+    others.sample.like image
 
-    image.liked_by others.sample if i > 9
+    others.sample.like image if i > 9
   end
 end

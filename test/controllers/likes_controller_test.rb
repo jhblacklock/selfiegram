@@ -1,10 +1,9 @@
 require 'test_helper'
 
 class LikesControllerTest < ActionDispatch::IntegrationTest
-
   setup do
-    @like = votes(:vote_1)
-    @image = @like.votable
+    @like = likes(:like_60)
+    @image = @like.image
     @user = @image.user
   end
 
@@ -15,7 +14,7 @@ class LikesControllerTest < ActionDispatch::IntegrationTest
 
   test 'should create like' do
     assert_difference('Like.count') do
-      post likes_url, params: { like: { by: 3 } }, as: :json
+      post likes_url, params: { like: { by: 1 } }, as: :json
     end
 
     assert_response 201
